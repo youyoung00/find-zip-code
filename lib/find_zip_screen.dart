@@ -31,7 +31,7 @@ class _FindZipScreenState extends State<FindZipScreen> {
       appBar: AppBar(),
       body: WebView(
         // initialUrl: 'http://10.0.2.2:5500/index.html',
-        initialUrl: 'http://192.168.0.80:5500/index.html',
+        initialUrl: 'http://192.168.0.80:5500/index.docs',
         javascriptMode: JavascriptMode.unrestricted,
         javascriptChannels: <JavascriptChannel>{
           JavascriptChannel(
